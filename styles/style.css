@@ -1,0 +1,41 @@
+
+body{
+    background-color: rgb(245, 212, 169);
+}
+.header{
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: fixed;
+    top: 0;left: 0;right: 0;
+    z-index: 100;
+
+}
+.ul{
+    display: flex;
+    justify-content:space-between ;
+
+}
+header .logo img{
+    margin-left: 20px;
+    width: 60px;
+    height: 50px;
+}
+header .navbar a {
+    color: bisque;
+    margin:20px;
+    font-size: 25px;
+
+}
+.header .navbar a:hover{
+    color:rgb(196, 109, 109);
+    border-bottom: 3px solid rgb(199, 117, 117);
+    padding-bottom: 1px;
+}
+.navbar{
+    opacity: 0.8;
+    padding: 10px;
+}
+
+/* slider */
