@@ -232,7 +232,7 @@ header .navbar a {
 /* review */
 .review{
     background:rgb(221, 178, 123);
-    margin-bottom: 60px;
+    margin-bottom:30px;
     height: 500px;
     align-items: center;
 }
@@ -284,51 +284,143 @@ button:hover{
 }
 /* contacts */
 
-/* .contact .row{
+.wraper-contact{
     display: flex;
-    background:rgb(95, 54, 1)
-    flex-wrap: wrap;
-    gap:1rem;
+    justify-content: space-around;
 }
-
-.contact .row .map{
-    flex:1 1 45rem;
-    width: 100%;
-    object-fit: cover;
-}
-
-.contact .row form{
-    flex:1 1 45rem;
-    padding:5rem 2rem;
-    text-align: center;
-}
-
-.contact .row form h3{
-    text-transform: uppercase;
-    font-size: 3.5rem;
+.contact-title{
+    font-size: 4rem;
     color:#fff;
+    font-family: 'Italianno', cursive;
+    margin-bottom: 30px;
+
 }
 
-.contact .row form .inputBox{
+.contact-titles{
+    font-size: 60px;
+    color:rgb(102, 70, 34);
+    font-family: 'Italianno', cursive;
+    margin-bottom: 30px;
+
+}
+.contact-info{
+    font-size: 25px;
+}
+
+/* footer */
+
+/* footer */
+.footer-wrapper {
+    width: 100%;
+    height: 359px;
+    background-color: #121212;
+}
+
+.contaier {
+    max-width: 1088px;
+    width: 100%;
+    height: 191px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    background:
-    border:
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0 auto;
+    
 }
 
-.contact .row form .inputBox span{
-    color:#fff;
-    font-size: 2rem;
-    padding-left: 2rem;
+.box-1 {
+    width: 260px;
+    height: 191px;
+    margin-top: 90px;
+    margin-bottom: 54px;
+    
+}
+.box-title {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+.box-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #B1B1B1;
+    margin-bottom: 20px;
 }
 
-.contact .row form .inputBox input{
+.fa-brands {
+    font-size: 35px;
+}
+.fa-facebook {
+     color: blue;
+}
+.fa-twitter {
+     color: lightblue;
+    
+}
+.fa-google-plus {
+    color: darkred;
+}
+
+.box-title2 {
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.footer-li {
+    font-family: 'Poppins', sans-serif;
+    color: #5863F8;
+    font-size: 14;
+    margin-bottom: 10px;
+}
+.footer-li2 {
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14;
+    margin-bottom: 20px;
+}
+
+.fa-solid {
+    margin-right: 14px;
+    color: #5863F8;
+    font-size: 14px;
+
+}
+.box-footer {
+    margin-top: 90px;
+}
+
+.box-3 {
+    margin-top: 90px;
+}
+.footer-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14;
+    color: #FFFFFF;
+}
+.footer-span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14;
+    color: #5863F8;
+    top: 335px;
+    left: 139px;
+}
+.Copyright {
+    max-width: 1088px;
     width: 100%;
-    padding:2rem;
-    font-size: 1.7rem;
-    color:#fff;
-    text-transform: none;
-    background:none;
-} */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
