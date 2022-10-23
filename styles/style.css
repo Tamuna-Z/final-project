@@ -45,7 +45,7 @@ header .navbar a {
     position: relative;
     margin: 0 auto;
 }
-/* .arrow {
+.arrow {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -60,16 +60,16 @@ header .navbar a {
     z-index: 2;
 }
 .arrow-left {
-    left: 80px
+    left: 200px
 }
 .arrow-right {
-    right: 80px;
+    right: 200px;
 }
 .arrow:hover {
     border: 2px solid white;
     background-size: 300% 100%;
 } */
-/* .slider-title {
+.slider-title {
     position: absolute;
     top: 50%;
     left: 50%;

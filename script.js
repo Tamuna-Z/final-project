@@ -1,3 +1,5 @@
+// slider data/photos
+
 let data = [
     {
         id: 1,
@@ -131,4 +133,6 @@ setInterval( () => {
 }, 4000);
 
 setSlider();
+
+// 
 
