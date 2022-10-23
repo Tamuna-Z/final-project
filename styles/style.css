@@ -12,9 +12,16 @@ body{
     z-index: 100;
 
 }
+.nugTitle{
+    margin-left: 100px;
+    font-size: 4rem;
+    color:#fff;
+    font-family: 'Italianno', cursive;
+}
 .ul{
     display: flex;
     justify-content:space-between ;
+    font-family: 'Kdam Thmor Pro', sans-serif;
 
 }
 header .logo img{
@@ -40,7 +47,7 @@ header .navbar a {
 
 /* slider */
 #slider {
-    width: 60%;
+    width: 80%;
     height: 100vh;
     position: relative;
     margin: 0 auto;
@@ -78,14 +85,14 @@ header .navbar a {
     font-size: 3rem;
     letter-spacing: 0.15rem;
     color: white;
-    background-color: rgba(0, 0, 0, 0.555);
-    padding: 40px 70px;
-    border-radius: 30px;
+    /* background-color: rgba(0, 0, 0, 0.555); */
+    padding: 20px 70px;
+    /* border-radius: 30px; */
     text-align: center;
 }
-.slider-title:hover {
+/* .slider-title:hover {
     box-shadow: 0 4px 40px rgba(0, 0, 0, 0.747);
-} */
+}  */
 .dot {
     width: 15px;
     height: 15px;
@@ -130,6 +137,7 @@ header .navbar a {
     align-items: center;
     background:rgb(221, 178, 123);
     /* flex-wrap: wrap; */
+    margin-top: 80px;
 }
 
 .about .row .image{
@@ -146,16 +154,17 @@ header .navbar a {
 }
 
 .about .row .content h3{
-    font-size: 3rem;
+    font-size: 4rem;
     color:#fff;
+    font-family: 'Italianno', cursive;
     /* max-width: 100%; */
 }
 .about .row .content p {
     width: 500px;
 }
-.about .row .content h3 {
+/* .about .row .content h3 {
     font-size: 30px;
-}
+} */
 
 .about .row .content p{
     font-size: 1.4rem;
@@ -169,11 +178,20 @@ header .navbar a {
 /* .menu {
     margin-top: 28rem;
 } */
+.heading{
+    font-size: 4rem;
+    color:rgb(211, 108, 12);
+    font-family: 'Italianno', cursive;
+    margin-left: 100px;
+    margin-top: 30px;
+    
+}
 .menu .box-container{
     /* display: -ms-grid; */
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap:0.5rem;
+    margin-top: 40px;
 }
 
 .menu .box-container .box{
@@ -211,4 +229,106 @@ header .navbar a {
 .menu .box-container .box:hover > *{
     color:var(--black);
 }
+/* review */
+.review{
+    background:rgb(221, 178, 123);
+    margin-bottom: 60px;
+    height: 500px;
+    align-items: center;
+}
+.reviewTitle{
+    font-size: 50px;
+    color: #5f3512;
+    margin-top: 70px;
+    margin-bottom: 60px;
+    margin-left: 100px;
+    margin-left: 100px;
+    font-family: 'Italianno', cursive;
+  
+    
 
+}
+
+#main-section{
+    margin: 0 auto;
+    padding: 40px;
+}
+#ul-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.image-block{
+    height: 150px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.button{
+   height: 35px;
+   width:150px ;
+   margin-top: 30px;
+   background-color:skyblue;
+   color: white;
+   border: none;
+   border-radius: 15px;
+   cursor: pointer;
+   font-size:14px ;
+   font-weight: bold;
+}
+
+button:hover{
+    opacity: 70%;
+    transition: 0.2s;
+}
+/* contacts */
+
+/* .contact .row{
+    display: flex;
+    background:rgb(95, 54, 1)
+    flex-wrap: wrap;
+    gap:1rem;
+}
+
+.contact .row .map{
+    flex:1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.contact .row form{
+    flex:1 1 45rem;
+    padding:5rem 2rem;
+    text-align: center;
+}
+
+.contact .row form h3{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    color:#fff;
+}
+
+.contact .row form .inputBox{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background:
+    border:
+}
+
+.contact .row form .inputBox span{
+    color:#fff;
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+
+.contact .row form .inputBox input{
+    width: 100%;
+    padding:2rem;
+    font-size: 1.7rem;
+    color:#fff;
+    text-transform: none;
+    background:none;
+} */
